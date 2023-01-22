@@ -73,9 +73,8 @@ const callGenerateEndpoint = async () => {
         <h3>Reply</h3>
       </div>
     </div>
-    <div className="output-header-container prompt-container-output">
+    <div className="output-header-container">
       <textarea
-      className="prompt-box"
       value={apiOutput}
       />
     </div>
