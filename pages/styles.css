@@ -66,6 +66,7 @@ body {
     color: rgba(255, 255, 255, 0.75);
 }
 
+
 .prompt-container {
     place-content: flex-end center;
     align-items: center;
@@ -77,6 +78,30 @@ body {
     padding: 0px;
     width: min-content;
 }
+
+
+.prompt-container-output {
+    place-content: flex-end center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    margin: 0 auto;
+    flex-flow: column nowrap;
+    /* gap: 16px; */
+    height: max-content;
+    width: 100%;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text-prop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
 
 .prompt-box {
     border-bottom-width: 1px;
@@ -390,6 +415,9 @@ textarea {
     }
 }
 
+.text-output {
+    text-align:center;
+}
 
 
  /* Loading ring animation */
